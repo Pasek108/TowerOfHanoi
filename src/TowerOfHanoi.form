@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TowerOfHanoi">
+  <grid id="27dc6" binding="JPanel1" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="722" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="9d4aa" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="5" right="10"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="bb5e5" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="fc8e" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="1513d" class="javax.swing.JButton" binding="stepButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <text value="Step"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="aac3d" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="52457" class="javax.swing.JButton" binding="runButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <text value="Run"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="ea76c" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="1b2ea" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-16777216"/>
+                      <text value="Speed"/>
+                    </properties>
+                  </component>
+                  <component id="aee64" class="javax.swing.JSlider" binding="speedSlider">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <foreground color="-16777216"/>
+                      <majorTickSpacing value="999"/>
+                      <maximum value="1000"/>
+                      <minimum value="1"/>
+                      <minorTickSpacing value="50"/>
+                      <paintLabels value="true"/>
+                      <paintTicks value="true"/>
+                      <snapToTicks value="true"/>
+                      <value value="501"/>
+                      <valueIsAdjusting value="true"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="4009a" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="57ad4" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <foreground color="-16777216"/>
+                      <text value="Number of discs"/>
+                    </properties>
+                  </component>
+                  <component id="6fb34" class="javax.swing.JSlider" binding="discsSlider">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <foreground color="-16777216"/>
+                      <majorTickSpacing value="15"/>
+                      <maximum value="16"/>
+                      <minimum value="1"/>
+                      <minorTickSpacing value="1"/>
+                      <paintLabels value="true"/>
+                      <paintTicks value="true"/>
+                      <snapToTicks value="true"/>
+                      <value value="5"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="721fa" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="ebe03" class="javax.swing.JButton" binding="stopButton" default-binding="true">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <text value="Stop"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <component id="8511e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="24" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Towers of Hanoi"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8ff40" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="abf97" binding="DrawingContainer" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
