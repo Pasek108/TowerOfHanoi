@@ -16,7 +16,6 @@ Visualization of Tower of Hanoi algorithm
 
 
 ## Features
-List the ready features here:
 - Visualisation of the algorithm
 - Start, Step, Stop controls
 - Changing number of discs
