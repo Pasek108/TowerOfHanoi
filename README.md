@@ -12,16 +12,6 @@
 
 <br>
 
-# FrontendMentor :thinking:
-
-## What is it
-[FrontendMentor](https://www.frontendmentor.io/home) is a platform that provides real-world front-end coding challenges to help developers improve their skills. It offers projects ranging from simple layouts to complex web applications, allowing users to practice HTML, CSS, and JavaScript by building solutions that closely resemble professional work.  
-
-## Is it worth doing
-Frontend Mentor is a great resource for developers looking to gain hands-on experience by working on practical projects. The challenges help reinforce best practices, improve design implementation skills, and build a portfolio. However, since there is no automated grading system, feedback depends on community reviews, making it essential to engage with others for constructive criticism.  
-
-<br>
-
 # Overview :sparkles:
 
 ## About
