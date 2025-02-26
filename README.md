@@ -15,9 +15,9 @@
 # Overview :sparkles:
 
 ## About
+Simple visualization of Tower of Hanoi algorithm created in Java Swing.
 
-
-Check out the [live version]().
+Check out the [release](https://github.com/Pasek108/TowerOfHanoi/releases/tag/TowerOfHanoi).
 
 <br>
 
@@ -41,7 +41,7 @@ Programs:
 - Changing speed
 
 ## Setup
-- Use `TowerOfHanoi.jar` file
+- Use `TowerOfHanoi.jar` file from [release](https://github.com/Pasek108/TowerOfHanoi/releases/tag/TowerOfHanoi).
 
 Or
 
