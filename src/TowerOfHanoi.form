@@ -177,7 +177,7 @@
             <properties>
               <font size="24" style="1"/>
               <foreground color="-16777216"/>
-              <text value="Towers of Hanoi"/>
+              <text value="Tower of Hanoi"/>
             </properties>
           </component>
         </children>

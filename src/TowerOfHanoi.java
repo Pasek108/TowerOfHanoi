@@ -15,8 +15,9 @@ public class TowerOfHanoi extends JFrame {
         this.setContentPane(JPanel1);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
-        this.setSize(1024, 768);
+        this.setSize(1024, 600);
         this.setVisible(true);
+        this.setLocationRelativeTo(null);
 
         DrawingContainer.add(Canvas);
 
