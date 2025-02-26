@@ -6,7 +6,7 @@
 </p>
 <div align="center">
   <a href="https://www.frontendmentor.io/home">
-    <img src="_for_readme/banner.jpg?">
+    <img src="_for_readme/banner.png">
   </a>
 </div>
 
